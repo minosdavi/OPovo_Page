@@ -1,0 +1,43 @@
+.footerletra{
+    color: white;
+}
+
+.nav-item{
+    white-space: nowrap;
+}
+
+.nav-footer-padding{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.bg-body{
+    background-color: blue;
+}
+
+.body-padding{
+    padding-left: 250px;
+    padding-right: 160px;
+}
+
+.voltar{
+    text-decoration:none;
+    color: black;
+}
+
+.voltar:hover{
+    text-decoration: none;
+    color: #666;
+}
+
+.vagas{
+    font-size: 50px;
+}
+
+.cor-letra{
+    color: #314163;
+}
+.consultor-letra{
+    font-size: 35px;
+}
+
