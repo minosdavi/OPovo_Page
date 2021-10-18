@@ -45,14 +45,6 @@
 }
 
 
-@media screen and (max-width: 600px) {
-
-    aside{
-        display: none;
-    }
-    
-}
-
 .voltar:hover{
     text-decoration: none;
     color: #666;
