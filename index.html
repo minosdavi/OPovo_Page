@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        
         <link rel="stylesheet" href="./CSS/style.css">
         <title>Vaga Jornal O Povo</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -53,9 +54,15 @@
               </nav>
         </div>
 
+        <div>
+            <aside>
+                <div  class="padding-img">
+                    <img src="img\vagas-01-01.png" alt="" class="padding-img">
+                </div>
+            </aside>
+        </div>
 
-
-        <div class="body-padding cor-letra">
+        <div class="body-padding cor-letra bg-body" style="padding-bottom: 20px; background-color: #fff0ff;">
 
             <div>
                 <a href="#" class="voltar">
@@ -114,96 +121,106 @@
                 </p>
             </div>
 
-            <div style="background-color:#e8f8ff;">
+
+            <div style="background-color:#e8f8ff; padding: 20px; width: 450px;">
+                    <div style="padding: 20px; border-style: solid; border-width: 1px;">
 
 
-                <div>
-                    <h3>
-                        Envie seu curriculo
-                    </h3>
-                </div>
-
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Nome</label>
-                    <input type="text" class="form-control">
-                  </div>
-
-                  <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">E-mail</label>
-                    <input type="text" class="form-control">
-                  </div>
-
-                  <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">CEP</label>
-                    <input type="text" class="form-control">
-                  </div>
-
-                  <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Endereço</label>
-                    <input type="text" class="form-control">
-                  </div>
-
-                <div class="row g-3">
-                    <div class="col-sm-2">
-                        <p>
-                            número
-                        </p>
-                    <input type="text" class="form-control">
+                    <div>
+                        <h3>
+                            Envie seu curriculo
+                        </h3>
                     </div>
-                    
-                    <div class="col-sm-7">
-                        <p>
-                            Bairro
-                        </p>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nome</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">E-mail</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">CEP</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Endereço</label>
                         <input type="text" class="form-control">
                     </div>
 
                     <div class="row g-3">
                         <div class="col-sm-2">
                             <p>
-                                estado
+                                número
                             </p>
                         <input type="text" class="form-control">
                         </div>
                         
                         <div class="col-sm-7">
                             <p>
-                                cidade
+                                Bairro
                             </p>
                             <input type="text" class="form-control">
                         </div>
+
+                        <div class="row g-3">
+                            <div class="col-sm-2">
+                                <p>
+                                    estado
+                                </p>
+                            <input type="text" class="form-control">
+                            </div>
+                            
+                            <div class="col-sm-7">
+                                <p>
+                                    cidade
+                                </p>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <div>
-                    <H3>
-                        Currículo
-                    </H3>
                     
-                    <div class="row g-3">
-                    <button type="button" class="btn btn-primary col-sm-2" data-bs-toggle="button" autocomplete="off" style="height: 40px;">
-                        Anexar currículo
-                    </button>
-                    <p class="col-sm-2">
-                        Todos os campos são obrigatórios Tamanho máximo para upload - 10mb Tipo do arquivo: .pdf ou.doc
-                    </p>
+                    <div>
+                        <H3>
+                            Currículo
+                        </H3>
+                        
+                        <div class="row g-3">
+                        <button type="button" class="btn btn-primary col-sm-2" data-bs-toggle="button" autocomplete="off" style="height: 40px; width: fit-content; white-space: nowrap;">
+                            Anexar currículo
+                        </button>
+                        <p class="col-sm-7">
+                            Todos os campos são obrigatórios </br> Tamanho máximo para upload - 10mb </br> Tipo do arquivo: .pdf ou.doc
+                        </p>
+                        </div>
+                    
                     </div>
-                
+
+                    </div>
+
+                    <div style="padding: 20px">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off" style="position: inherit; right: 0px;">
+                            Enviar currículo
+                        </button>
+                    </div>
+
+
                 </div>
 
-                <div style="padding-right: 0px;">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off"">
-                        Enviar currículo
-                    </button>
-                </div>
-            </div>
+                
         </div>
+
+        
     
 
         <div>
             <footer class=" bg-primary navbar nav-footer-padding ">
                <div class=" footerletra"><p>O Povo online</p></div>
-               <div class=" footerletra"><p>Copyright 1928-2021</p></div>
+               <div class=" footerletra"><p>Copyright © 1928-2016</p></div>
             </footer>
         </div>
     
